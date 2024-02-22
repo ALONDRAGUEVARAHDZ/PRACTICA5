@@ -1,0 +1,66 @@
+:root{
+    --TEXTO: purple; 
+    --GRIS: GRAY;
+    --AQUA:AQUA;
+    --AMARILLO:YELLOW;
+    --CAFE:BROWN;
+    --ROSA:PINK;
+    --BLANCO:WHITE;
+    --hover:orange;
+    --NEON:lime;
+
+
+}
+
+.inicio{
+    background-color: var(--AQUA);
+    color: var(--BLANCO);
+    font-size: 23px;
+    font-family: serif;
+    padding: 1%;
+    
+}
+.inicio:hover{
+    background-color:  var(--AMARILLO);
+
+}
+.nosotros{
+    background-color: var(--CAFE);
+    color: var(--BLANCO);
+    font-size: 23px;
+    font-family: serif;
+    padding: 1%;
+}
+.nosotros:hover{
+    background-color: var(--ROSA);
+}
+
+.actualizacion{
+    background-color: var(--TEXTO);
+    color: var(--BLANCO);
+    font-size: 23px;
+    font-family: serif;
+    padding: 1%;
+}
+.actualizacion:hover{
+    background-color: var(--GRIS);
+}
+.iniciar_sesion{
+    background-color: var(--hover);
+    color: var(--BLANCO);
+    font-size: 23px;
+    font-family: serif;
+    padding: 1%;
+}
+.iniciar_sesion:hover{
+    background-color: var(--NEON);
+}
+.subtitulo{
+    font-size: 29px;
+    font-family: Impact;
+
+
+}
+.form {
+  background-color: aquamarine;
+}
